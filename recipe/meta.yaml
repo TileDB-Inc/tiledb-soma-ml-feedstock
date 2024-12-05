@@ -5,13 +5,13 @@ package:
   name: {{ name|lower }}
   version: {{ version }}
 
-# Cheat sheet:
-# wget 'https://pypi.io/packages/source/s/tiledb-soma-ml/tiledb-soma-ml-i.j.k.tar.gz'
-# shasum -a 256 tiledb-soma-ml-i.j.k.tar.gz
 source:
   # As of 2024-12-04 there exist no releases at https://github.com/single-cell-data/TileDB-SOMA-ML/releases
+  #
+  # Info from the somacore package, for reference:
   # url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tiledb-soma-ml-{{ version }}.tar.gz
   # sha256: 25dab106aaf3f2d7d93318ba4a1d1a47c3728ca0ae192be1c838ff6622091ff8
+  #
   git_url: https://github.com/TileDB-Inc/TileDB-SOMA-ML.git
   git_rev: 2e9e5b1c71e72fccc7e65ac4007df5c0afe30238
   git_depth: -1
