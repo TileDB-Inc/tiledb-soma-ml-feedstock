@@ -3,7 +3,7 @@ github:
   branch_name: main
   tooling_branch_name: main
 azure:
-  build_id: 47
+  build_id: 55
   user_or_org: TileDB-Inc
   project_name: CI
 upload_on_branch: main
