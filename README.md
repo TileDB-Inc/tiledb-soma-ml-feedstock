@@ -15,7 +15,7 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=47&branchName=main">
+      <a href="https://dev.azure.com/TileDB-Inc/CI/_build/latest?definitionId=55&branchName=main">
         <img src="https://dev.azure.com/TileDB-Inc/CI/_apis/build/status/tiledb-soma-ml-feedstock?branchName=main">
       </a>
     </td>
